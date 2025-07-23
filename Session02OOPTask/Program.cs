@@ -99,6 +99,15 @@
 
 
             #endregion
+            #region Video05 Polymorphism overriding methods
+            //3.2 Polymorphism  methods (functions) overriding
+            //There are more than one functions [in different class] these funtions have
+            //the same NAME and SIGNATURE but with different behavior
+            //it happened in Inheritance
+            //TypeB typeB = new TypeB() { A=12,B=13} ;
+            //typeB.Fun01();
+            //typeB.Fun02();
+            #endregion
         }
     }
 }
