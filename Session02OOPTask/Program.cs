@@ -50,6 +50,18 @@
 
              */
             #endregion
+            #region Video02 Inheritance
+            //Inheritance
+            //X==>Y
+            //Parent parent = new Parent(1,2);
+            //Console.WriteLine(parent);
+            //parent.Fun01();
+            //parent.Fun02();
+            //Child child = new Child(1, 2, 3);
+            //Console.WriteLine(child);
+            //child.Fun01();
+            //child.Fun02();
+            #endregion
         }
     }
 }
