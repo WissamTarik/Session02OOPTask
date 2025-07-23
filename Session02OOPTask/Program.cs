@@ -2,6 +2,24 @@
 {
     internal class Program
     {
+        #region Video04 Polymorphism methods overloading 
+        static int Sum(int x, int y, int z)
+        {
+            return x + y + z;
+        }
+        static int Sum(int x, int y)
+        {
+            return x + y;
+        }
+        static double Sum(double x, double y)
+        {
+            return x + y;
+        }
+        static double Sum(int x, double y)
+        {
+            return x + y;
+        }
+        #endregion
         static void Main(string[] args)
         {
             #region  Video00 Revision
@@ -66,6 +84,19 @@
             //3.Polymorphism
             //3.1 Polymorphism methods (functions) overloading
             //3.2 Polymorphism methods (functions) overriding
+
+            #endregion
+            #region Video04 Polymorphism overloading methods
+            //3.1 Polymorphism methods (functions) overloading:
+            //There are more than one function in the same scope[class-struct] with the same NAME
+            //but with different signature(count-type-order) parameters
+
+            //Console.WriteLine(Sum(1, 2));
+            //Console.WriteLine(Sum(1.2, 2.4));
+            //Console.WriteLine(Sum(1,2,3));
+            //Console.WriteLine(Sum(1,2.3));
+
+
 
             #endregion
         }
