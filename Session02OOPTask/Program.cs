@@ -108,6 +108,20 @@
             //typeB.Fun01();
             //typeB.Fun02();
             #endregion
+
+            #region Video06 what is binding
+            /*
+             Whats binding?
+            --Is a reference from parent refer to an object of child
+            --child is a parent
+              TypeB is a TypeA
+             */
+            //TypeA Ref=new TypeB()  ;
+
+            //Ref.Fun01();//static binded method
+            //Ref.Fun02();//dynamic binded method
+
+            #endregion
         }
     }
 }
