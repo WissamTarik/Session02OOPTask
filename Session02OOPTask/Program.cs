@@ -181,7 +181,26 @@ namespace Session02OOPTask
             //};
             //EmployeeProccess(partTimeEmployee);
             #endregion
+            #region Vide09 Binding Example
+            //TypeA typeA;
+            //typeA = new TypeB();//Binding because TypeA is a parent of TypeB
+            //typeA = new TypeC();//Binding because TypeB is indirect parent of TypeC
+            //typeA = new TypeD();//Binding because TypeD is indirect parent of TypeD
 
+            //typeA.A = 12;
+            //typeA.B = 12;
+            //typeA.C = 12;
+            //typeA.D = 12;
+            //typeA.Func01();
+            //typeA.Func02();
+            //typeA = new TypeE();
+            //typeA.Func01();
+            //typeA.Func02();
+            //TypeD typeD;
+            //typeD = new TypeD();
+            //typeD.Func01();
+            //typeD.Func02();
+            #endregion
         }
     }
 }
