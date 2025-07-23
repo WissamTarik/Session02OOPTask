@@ -1,7 +1,29 @@
-﻿namespace Session02OOPTask
+﻿using Session02OOP.Binding;
+
+namespace Session02OOPTask
 {
+    
     internal class Program
     {
+        #region Video08
+        static void EmployeeProccess(Employee employee)
+        {
+            if (employee is not null)
+            {
+                employee.Fun01();
+                employee.Fun02();
+            }
+        }
+        //  static void EmployeeProccess(PartTimeEmployee employee)
+        //{
+        //    if (employee is not null)
+        //    {
+        //        employee.Fun01();
+        //        employee.Fun02();
+        //    }
+        //}
+        #endregion
+
         #region Video04 Polymorphism methods overloading 
         static int Sum(int x, int y, int z)
         {
@@ -137,6 +159,29 @@
             //TypeB typeB = (TypeB)Ref;//Not binding
 
             #endregion
+            #region Video08 When U Need Binding
+            //When U Need Binding??
+            //FullTimeEmployee fullTimeEmployee = new FullTimeEmployee()
+            //{
+            //    Id = 1,
+            //    Name = "Ahmed",
+            //    Salary = 12000,
+            //    Email = "ahmed@g.com",
+            //    Address = "Cairo"
+            //};
+            //EmployeeProccess(fullTimeEmployee);
+            //PartTimeEmployee partTimeEmployee = new PartTimeEmployee()
+            //{
+            //    Id = 1,
+            //    Name = "Ali",
+            //    HourRate=200,
+            //    NumberOfHours=300,
+            //    Email = "Ali@g.com",
+            //    Address = "Alex"
+            //};
+            //EmployeeProccess(partTimeEmployee);
+            #endregion
+
         }
     }
 }
