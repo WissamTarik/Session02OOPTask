@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session02OOPTask", "Session02OOPTask\Session02OOPTask.csproj", "{4AD5687C-B98A-442A-B214-2A66B2CE2F3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAccess_Modifiers", "TaskAccess_Modifiers\TaskAccess_Modifiers.csproj", "{DA97D178-66BB-48F2-A176-895D798961D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_Access_Modifers_Library", "Task_Access_Modifers_Library\Task_Access_Modifers_Library.csproj", "{76605E19-0269-4FE9-885D-E1DE33409EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4AD5687C-B98A-442A-B214-2A66B2CE2F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD5687C-B98A-442A-B214-2A66B2CE2F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD5687C-B98A-442A-B214-2A66B2CE2F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA97D178-66BB-48F2-A176-895D798961D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA97D178-66BB-48F2-A176-895D798961D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA97D178-66BB-48F2-A176-895D798961D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA97D178-66BB-48F2-A176-895D798961D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76605E19-0269-4FE9-885D-E1DE33409EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76605E19-0269-4FE9-885D-E1DE33409EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76605E19-0269-4FE9-885D-E1DE33409EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76605E19-0269-4FE9-885D-E1DE33409EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
