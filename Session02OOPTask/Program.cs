@@ -122,6 +122,21 @@
             //Ref.Fun02();//dynamic binded method
 
             #endregion
+            #region Video07 Not binding
+            //Reference from parent refer to object from child
+            //TypeA typeA = new TypeA();//Not binding
+            //TypeA typeA = new TypeB();// Binding
+
+            ////TypeB Ref = new TypeA();
+            ////Child is a parent
+            ////TypeB is a TypeA
+            ////Dog is a Animal 
+            ////Animal is a (Animal)Dog
+            //TypeA Ref=new TypeA();
+            //Ref = new TypeB();
+            //TypeB typeB = (TypeB)Ref;//Not binding
+
+            #endregion
         }
     }
 }
